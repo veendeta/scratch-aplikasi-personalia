@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Data</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js">defer</script>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="home.html">Home</a>
+        <a href="userInfo.html">My User Info</a>
+        <a href="md.html">Management Data</a>
+        <a href="about.html">About</a>
+        <a href="te.html">Top Employee</a>
+        <a href="login.html">Sign Out</a>
+      </div>
+      
+      <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; View Menu</span>
+
+
+        
+    
+    </div> 
+    
+  <center> <h1> Update Data </h1> </center>   
+  <form action="/action_page.php">  
+      <div class="container">   
+          <label>Nama : </label>   
+          <input type="text" placeholder="edit" name="name" required>
+          <label>Email : </label>   
+          <input type="text" placeholder="edit" name="email" required>  
+          <label>Nomor HP : </label>   
+          <input type="text" placeholder="edit" name="phone" required>
+          <label>Alamat : </label>   
+          <input type="text" placeholder="edit" name="address" required>  
+          <label>Username : </label>
+            <input type="text" placeholder="edit" name="username" required>
+
+            <label for="myfile">Foto User:</label>
+            <input type="file" id="myfile" name="myfile">
+
+          <button type="submit" formaction="md.html">Update</button></a>
+          <a href="md.html" class="btnn">Balik</a>
+      </div>   
+  </form>
+
+  </div>
+</body>
+</html>

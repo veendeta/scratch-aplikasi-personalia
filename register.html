@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js">defer</script>
+</head>
+<body>
+    
+  <center> <h1> Sign Up </h1> </center>   
+  <form>  
+      <div class="container">   
+          <label>Name : </label>   
+          <input type="text" placeholder="Enter Your Name" name="name" required>
+          <label>Address : </label>   
+          <input type="text" placeholder="Enter Address" name="address" required>  
+          <label for="bday">Birth Date : </label>
+          <br><input type="date" placeholder="date" name="month" required>
+          <br>
+
+          <label>Email : </label>   
+          <input type="text" placeholder="Enter Email" name="email" required>  
+          <label>Password : </label>
+            <input type="password" placeholder="Enter Password (8-10 characters include number, upper and lower case.)" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,10}" title="8-10 characters & contain at least one uppercase and lowercase letter and one number " required>
+          <label>Phone Number : </label>   
+          <input type="text" placeholder="Enter Phone Number" name="phone" required>
+          <button type="submit" formaction="login.html">Register</button></a>
+          <a href="login.html"> Already have an account? Log in here </a>   
+      </div>   
+  </form>
+
+  </div>
+</body>
+</html>
